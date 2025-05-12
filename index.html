@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Ticaret Mağazası</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Üst Bildirim Barı -->
+    <div class="top-bar">
+        <span><i class="fas fa-bullhorn"></i> 1500 TL ve üzeri alışverişlerde ücretsiz kargo!</span>
+        <a href="#" class="top-bar-link">Kampanyaları Gör</a>
+    </div>
+
+    <!-- Header ve Mega Menü -->
+    <header>
+        <div class="header-container">
+            <div class="logo"><img src="images/logo.png" alt="LOGO" class="logo-img"></div>
+            <nav>
+                <ul>
+                    <li><a href="#">Ana Sayfa</a></li>
+                    <li class="has-mega-menu">
+                        <a href="#">Kategoriler <i class="fas fa-angle-down"></i></a>
+                        <div class="mega-menu">
+                            <div class="mega-menu-col">
+                                <h4>Traktör Ekipmanları</h4>
+                                <a href="traktor-ekipmanlari.html">Pulluklar</a>
+                                <a href="traktor-ekipmanlari.html">Tırmıklar</a>
+                                <a href="traktor-ekipmanlari.html">Römorklar</a>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h4>Hasat Makineleri</h4>
+                                <a href="hasat-makineleri.html">Biçerdöverler</a>
+                                <a href="hasat-makineleri.html">Balya Makineleri</a>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h4>Gübreleme</h4>
+                                <a href="#">Gübre Serpme</a>
+                                <a href="#">İlaçlama</a>
+                            </div>
+                            <div class="mega-menu-col">
+                                <h4>Popüler</h4>
+                                <a href="#">Yeni Ürünler</a>
+                                <a href="#">Çok Satanlar</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#hakkimizda">Hakkımızda</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <div class="search-container">
+                    <input type="text" placeholder="Ürünlerde ara">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="header-actions">
+                    <a href="#hakkimizda" class="info-icon" title="Hakkımızda"><i class="fas fa-info-circle"></i></a>
+                    <a href="#iletisim" class="contact-btn">Bize Ulaşın</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Slider / Banner Alanı -->
+    <section class="slider">
+        <div class="slider-wrapper">
+            <div class="slide active">
+                <img src="images/tırmık.png" alt="Kampanya 1">
+                <div class="slide-caption">
+                    <h2>Yaza Özel İndirimler</h2>
+                    <p>Seçili tarım makinelerinde %30'a varan indirim!</p>
+                    <a href="#" class="slider-btn">Kampanyayı İncele</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/tırmık1.png" alt="Kampanya 2">
+                <div class="slide-caption">
+                    <h2>Yeni Nesil Biçerdöverler</h2>
+                    <p>Yüksek verim, düşük yakıt tüketimiyle stokta!</p>
+                    <a href="#" class="slider-btn">Ürünleri Gör</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/bicerdöver.png" alt="Kampanya 3">
+                <div class="slide-caption">
+                    <h2>Çiftçilere Özel Destek</h2>
+                    <p>Uzman ekibimizle 7/24 yanınızdayız.</p>
+                    <a href="#" class="slider-btn">Destek Al</a>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <span class="slider-dot active"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kategoriler Bölümü -->
+    <section class="categories">
+        <h2>Kategoriler</h2>
+        <div class="category-grid">
+            <a href="traktor-ekipmanlari.html" class="category-card">
+                <i class="fas fa-tractor"></i>
+                <span>Traktör Ekipmanları</span>
+            </a>
+            <a href="hasat-makineleri.html" class="category-card">
+                <i class="fas fa-seedling"></i>
+                <span>Hasat Makineleri</span>
+            </a>
+            <a href="gubreleme.html" class="category-card">
+                <i class="fas fa-water"></i>
+                <span>Gübreleme</span>
+            </a>
+            <a href="endustriyel.html" class="category-card">
+                <i class="fas fa-industry"></i>
+                <span>Endüstriyel</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Hero Alanı (Animasyonlu) -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Alışverişe Başlayın</h1>
+            <button class="cta-button">Şimdi Keşfet</button>
+        </div>
+        <div class="hero-image">
+            <img src="images/tractor.png" alt="Traktör" class="hero-img">
+        </div>
+    </section>
+
+    <!-- Kampanya/Öne Çıkanlar Alanı -->
+    <section class="campaigns">
+        <h2>Fırsatlar & Kampanyalar</h2>
+        <div class="campaign-grid">
+            <div class="campaign-card">
+                <span class="campaign-badge">%25 İndirim</span>
+                <h3>Çapa Makinesi</h3>
+                <p>Yaz sezonuna özel fiyatlarla!</p>
+                <a href="#" class="campaign-btn">İncele</a>
+            </div>
+            <div class="campaign-card">
+                <span class="campaign-badge">Kargo Bedava</span>
+                <h3>Gübre Serpme</h3>
+                <p>Hızlı teslimat avantajı ile.</p>
+                <a href="#" class="campaign-btn">İncele</a>
+            </div>
+            <div class="campaign-card">
+                <span class="campaign-badge">Yeni</span>
+                <h3>Balya Makinesi</h3>
+                <p>Stokta! Hemen sipariş verin.</p>
+                <a href="#" class="campaign-btn">İncele</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ürün Grid -->
+    <section class="products">
+        <h2>Öne Çıkan Ürünler</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image"><img src="images/bicerdöver.png" alt="Biçerdöver"></div>
+                <h3>Biçerdöver</h3>
+                <p class="price">₺5.000.000</p>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="images/tarımaleti1.png" alt="Çim Ekme Makinesi"></div>
+                <h3>Çim Ekme Makinesi</h3>
+                <p class="price">₺20.000</p>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="images/tırmık.png" alt="Diskli Tırmık"></div>
+                <h3>Diskli Tırmık</h3>
+                <p class="price">₺35.000</p>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="images/tırmık1.png" alt="Kültivatör"></div>
+                <h3>Kültivatör</h3>
+                <p class="price">₺25.000</p>
+            </div>
+            <div class="product-card">
+                <div class="product-image"><img src="images/tractor.png" alt="Traktör"></div>
+                <h3>Traktör</h3>
+                <p class="price">₺2.500.000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Müşteri Yorumları -->
+    <section class="testimonials">
+        <h2>Müşteri Yorumları</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial-card active">
+                <p>"Siparişim çok hızlı geldi ve ürünler gerçekten kaliteli. TarımAletleri ailesine teşekkürler!"</p>
+                <span>- Mehmet K.</span>
+            </div>
+            <div class="testimonial-card">
+                <p>"Müşteri hizmetleri çok ilgili, her soruma anında cevap aldım. Güvenle alışveriş yapabilirsiniz."</p>
+                <span>- Ayşe D.</span>
+            </div>
+            <div class="testimonial-card">
+                <p>"Fiyatlar uygun, teslimat hızlı ve ürün çeşitliliği harika. Tavsiye ederim!"</p>
+                <span>- Ali Y.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/İpuçları Bölümü -->
+    <section class="blog">
+        <h2>Tarımda İpuçları & Blog</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="images/bicerdöver.png" alt="Blog 1">
+                <h3>Verimli Toprak İçin 5 İpucu</h3>
+                <p>Toprağınızı daha verimli hale getirmek için uygulayabileceğiniz pratik yöntemler...</p>
+                <a href="#" class="blog-btn">Devamını Oku</a>
+            </div>
+            <div class="blog-card">
+                <img src="images/tarımaleti1.png" alt="Blog 2">
+                <h3>Modern Tarımda Dijitalleşme</h3>
+                <p>Tarımda dijital teknolojilerin kullanımı ve avantajları hakkında bilgiler...</p>
+                <a href="#" class="blog-btn">Devamını Oku</a>
+            </div>
+            <div class="blog-card">
+                <img src="images/tırmık.png" alt="Blog 3">
+                <h3>Makine Bakımında Dikkat Edilmesi Gerekenler</h3>
+                <p>Tarım makinelerinin ömrünü uzatmak için bakımda dikkat edilmesi gerekenler...</p>
+                <a href="#" class="blog-btn">Devamını Oku</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SSS Bölümü -->
+    <section class="faq">
+        <h2>Sıkça Sorulan Sorular</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <button class="faq-question">Siparişim ne zaman kargoya verilir?</button>
+                <div class="faq-answer">Siparişleriniz 24 saat içinde kargoya verilir ve kargo takip numarası e-posta ile iletilir.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">İade süreci nasıl işliyor?</button>
+                <div class="faq-answer">Ürünü teslim aldıktan sonra 14 gün içinde kolayca iade edebilirsiniz. Detaylar için iade politikamıza göz atın.</div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Canlı destek var mı?</button>
+                <div class="faq-answer">Evet, 7/24 canlı destek hattımızdan bize ulaşabilirsiniz.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hakkımızda Bölümü -->
+    <section class="about" id="hakkimizda">
+        <h2>Hakkımızda</h2>
+        <p>
+            TarımAletleri, çiftçilerimizin ve tarım sektöründe faaliyet gösteren herkesin ihtiyaç duyduğu modern, kaliteli ve güvenilir tarım ekipmanlarını kolayca bulabileceği bir e-ticaret platformudur. Amacımız; tarımda verimliliği artırmak, yenilikçi ürünleri uygun fiyatlarla sunmak ve müşteri memnuniyetini en üst seviyede tutmaktır.<br><br>
+            Geniş ürün yelpazemiz, hızlı teslimat ve uzman desteğimizle, tarımda dijital dönüşümün öncüsüyüz. Siz de TarımAletleri ile güvenli alışverişin ve kaliteli hizmetin keyfini çıkarın!
+        </p>
+    </section>
+
+    <!-- İletişim Bölümü -->
+    <section class="contact" id="iletisim">
+        <h2>İletişim</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p><strong>Adres:</strong> Ankara Teknokent, Türkiye</p>
+                <p><strong>Telefon:</strong> <a href="tel:+903123456789">+90 312 345 67 89</a></p>
+                <p><strong>E-posta:</strong> <a href="mailto:info@tarimaletleri.com">info@tarimaletleri.com</a></p>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Adınız Soyadınız" required>
+                <input type="email" placeholder="E-posta Adresiniz" required>
+                <textarea placeholder="Mesajınız" rows="4" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Bilgilendirme İkonları -->
+    <section class="info-icons">
+        <div class="info-item">
+            <i class="fas fa-truck"></i>
+            <h3>Ücretsiz Kargo</h3>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-undo"></i>
+            <h3>Kolay İade</h3>
+        </div>
+        <div class="info-item">
+            <i class="fas fa-headset"></i>
+            <h3>7/24 Destek</h3>
+        </div>
+    </section>
+
+    <!-- Sabit Canlı Destek Butonu -->
+    <a href="#" class="live-chat-btn" title="Canlı Destek">
+        <i class="fas fa-comments"></i>
+    </a>
+
+    <!-- Gelişmiş Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>TarımAletleri</h4>
+                <p>Modern tarımın dijital adresi. Güvenli alışveriş, hızlı teslimat ve uzman destek burada!</p>
+            </div>
+            <div class="footer-col">
+                <h4>Hızlı Linkler</h4>
+                <a href="#">Ana Sayfa</a>
+                <a href="#hakkimizda">Hakkımızda</a>
+                <a href="#iletisim">İletişim</a>
+                <a href="#">Kampanyalar</a>
+            </div>
+            <div class="footer-col">
+                <h4>Bülten</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="E-posta adresiniz">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2024 TarımAletleri. Tüm hakları saklıdır.</span>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Animasyon ve JS (Slider, SSS, Yorumlar) -->
+    <script src="main.js"></script>
+</body>
+</html> 
